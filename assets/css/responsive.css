@@ -1,0 +1,111 @@
+/* PC */
+@media (min-width: 1024px) {}
+
+/* Tablet and mobile */
+@media (max-width: 1023px) {
+    #nav .subnav a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #content .btn {
+        padding: 16px 15px;
+    }
+
+    #content .section-tickets li {
+        padding: 14px 16px;
+    }
+
+    .contact-content .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .footer-socials {
+        font-size: 48px;
+    }
+
+    .footer-socials a {
+        margin-right: 8px;
+    }
+
+    #footer .copywrite a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 741px) and (max-width: 1023px) {}
+
+/* Mobile  */
+@media (max-width: 740px) {
+
+    /*  */
+
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    /*  */
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+
+    #contetn .member-img {
+        width: 60%;
+    }
+
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+}
