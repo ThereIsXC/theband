@@ -1,8 +1,8 @@
 /* PC */
-@media (min-width: 1024px) {}
+@media (min-width: 64em) {}
 
 /* Tablet and mobile */
-@media (max-width: 1023px) {
+@media (max-width: 46.1875em) {
     #nav .subnav a {
         padding-top: 5px;
         padding-bottom: 5px;
@@ -39,10 +39,10 @@
 }
 
 /* Tablet */
-@media screen and (min-width: 741px) and (max-width: 1023px) {}
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
 
 /* Mobile  */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
 
     /*  */
 

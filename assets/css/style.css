@@ -210,7 +210,7 @@ html {
     margin-top: 46px;
     background-color: #ccc;
     padding-top: 50%;
-    background: url('/assets/img/slider1.jpg') top center /cover no-repeat;
+    background: url('../img/slider1.jpg') top center /cover no-repeat;
     position: relative;
 }
 
@@ -224,6 +224,7 @@ html {
     /* right: 0;
     left: 0; */
     text-align: center;
+    text-shadow: 0 0 1px #000;
 }
 
 #slider .text-content .text-heading {
